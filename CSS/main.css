@@ -1,0 +1,136 @@
+/* 
+-------------NAVIGATION BAR-------------
+*/
+.header-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    display: block;
+    color: white;
+    background-image: url("https://images.unsplash.com/photo-1516528387618-afa90b13e000?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170");
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+nav li{
+    display: inline;
+    vertical-align: middle;
+    margin: 20px;
+    font-size: larger;
+}
+nav ul{
+    background-color: transparent;
+    margin: 0;
+    list-style-type:none;
+    vertical-align: middle;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+}
+nav a{
+    color:white
+}
+nav a:hover{
+    color: rgb(6, 214, 165);    
+}
+#monogram{ 
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+    width:75px;
+}
+
+/* 
+-------------FONTS-------------
+*/
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Oxygen:wght@300&display=swap');
+h1{ 
+    font-family: 'Belleza', sans-serif;
+}
+body{
+    font-family: 'Oxygen', sans-serif;
+    margin: 0px;
+}
+.tba {
+    font-size: 75px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-content: center;
+    align-items: center;
+    margin: 0px;
+}
+/* 
+-------------ABOUT ME HOT MESS GRID-------------
+*/
+#about-image{ 
+    height: 300px;
+    border-radius: 25px;
+}
+.about-parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+    margin: 20px;
+    }
+    
+    .div1 { 
+        grid-area: 1 / 2 / 2 / 3; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        text-align: right;
+ 
+    }
+    .div2 { 
+        grid-area: 1 / 3 / 2 / 4; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .div3 { 
+        grid-area: 1 / 4 / 2 / 5; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+.no-bullets{ 
+    list-style: none;
+}
+input{ 
+    font-family: 'Oxygen', sans-serif;
+}
+textarea{ 
+    font-family: 'Oxygen', sans-serif;
+}
+
+/* 
+-------------FLEXY MESSY BLOG CARDS -------------
+*/
+.blog-container{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.blog-container > article {
+    background: #004343;
+    color: #FFF;
+    border-radius: 25px;
+    max-width: 250px;
+    padding: 20px;
+  }
+article a{ 
+    color: antiquewhite;
+}
+.recent-title{
+    display: flex;
+    justify-content: center;
+}
